@@ -1,10 +1,10 @@
 import {
-  faGitAlt,
-  faJsSquare,
-  faReact,
   faVuejs,
   faHtml5,
   faCss3,
+  faGitAlt,
+  faJsSquare,
+  faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useEffect, useState } from 'react'
