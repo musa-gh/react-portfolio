@@ -6,16 +6,16 @@ import emailjs from '@emailjs/browser'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 
 const Contact = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState('text-animate-hover')
 
   const nameArray = ['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']
   const refForm = useRef()
 
-  //   useEffect(() => {
-  //     return setTimeout(() => {
-  //       setLetterClass('text-animate-hover')
-  //     }, 4000)
-  //   }, [])
+  // useEffect(() => {
+  //   return setTimeout(() => {
+  //     setLetterClass('text-animate-hover')
+  //   }, 4000)
+  // }, [])
 
   const sendEmail = (e) => {
     e.preventDefault()
@@ -108,9 +108,9 @@ const Contact = () => {
           <span>musatastan1@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[38.68726, 35.55349]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
+            <Marker position={[38.687260867130774, 35.55349542321479]}>
               <Popup>Tastan lives here,come over for a cup of coffee :D</Popup>
             </Marker>
           </MapContainer>

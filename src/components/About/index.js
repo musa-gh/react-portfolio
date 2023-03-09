@@ -13,7 +13,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 const About = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState('text-animate-hover')
   const nameArray = ['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']
 
   //   useEffect(() => {
