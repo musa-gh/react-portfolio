@@ -7,10 +7,27 @@
       "url": "https://google.com"
     },
     {
-      "cover": "/portfolio/1/one.png",
-      "title": "GGWP",
-      "description": "React,JSX,Tailwind,Jest",
-      "url": "https://google.com"
+      "cover": "/portfolio/1/Fotoram.io (1).jpg",
+      "title": "WebSite",
+      "description": "Html,Css,Bootstrap",
+      "url": "https://musa-gh.github.io/bootstrap-proje/"
+    },
+    {
+      "cover": "/portfolio/1/Fotoram.io (2).jpg",
+      "title": "Portfolio",
+      "description": "Html,Css",
+      "url": "https://musa-gh.github.io/portfolio-tastan/"
+    },
+    {
+      "cover": "/portfolio/1/Fotoram.io (3).jpg",
+      "title": "Dashboard",
+      "description": "Html,Css,Vue,API"
+    },
+    {
+      "cover": "/portfolio/1/Fotoram.io.jpg",
+      "title": "Portfolio",
+      "description": "Html,Css",
+      "url": "https://musa-gh.github.io/Parallax-Website2/"
     }
   ]
 }
